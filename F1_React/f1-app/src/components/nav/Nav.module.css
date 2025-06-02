@@ -1,0 +1,80 @@
+:root {
+  --main-red: #e10600;
+  --main-dark: #0f0f0f;
+  --main-gray: #191919;
+}
+
+.headerRoot {
+  background: var(--main-red);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 14px rgba(0,0,0,.34);
+}
+
+/* This is your old .wrapper for max width and centering */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Nav flex row, space-between! */
+.navFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.brand {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+/* Nav list right-aligned */
+.navList {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.navLink {
+  font-weight: 500;
+  font-size: 1.13rem;
+  padding: 10px 6px;
+  border-radius: 4px;
+  transition: background .2s, color .2s;
+  color: #fff;
+  text-decoration: none;
+}
+.navLink:hover { background: rgba(0,0,0,0.13); color: #fff; }
+
+/* Ticker under nav */
+.ticker {
+  background: var(--main-gray);
+  border-top: 2.5px solid var(--main-red);
+  overflow: hidden;
+  position: relative;
+}
+.tickerTrack {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 7px 0 5px 0;
+  color: #ccc;
+  font-size: 1rem;
+  animation: scroll 24s linear infinite;
+  width: 100%;
+}
+.tickerDot {
+  color: var(--main-red);
+  font-size: 1.05rem;
+  margin-right: 4px;
+}
+@keyframes scroll {
+  0% { transform: translateX(100%) }
+  100% { transform: translateX(-100%) }
+}

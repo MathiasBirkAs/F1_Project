@@ -1,0 +1,123 @@
+.raceGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px 34px;
+  justify-content: center;
+  margin-top: 44px;
+  padding-bottom: 60px;
+}
+
+.raceCard {
+  background: #191919;
+  border-radius: 24px;
+  box-shadow: 0 0 24px #000c;
+  border: 2.5px solid #2a2a2a;
+  padding: 36px 28px 24px 28px;
+  min-width: 340px;
+  max-width: 420px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  transition: box-shadow .23s;
+}
+.raceCard:hover {
+  box-shadow: 0 0 40px #e1060088, 0 2px 32px #000b;
+  border-color: #e10600bb;
+}
+
+.raceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.round {
+  font-family: 'Orbitron', sans-serif;
+  color: #e10600;
+  font-weight: bold;
+  font-size: 1.17rem;
+  letter-spacing: 1px;
+}
+
+.flag {
+  width: 40px;
+  height: 28px;
+  border-radius: 5px;
+  object-fit: contain;
+  box-shadow: 0 1px 8px #0005;
+}
+
+.raceDateBlock {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
+
+.raceRange {
+  font-size: 2.5rem;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.raceMonth {
+  background: #0e0e0e;
+  border-radius: 7px;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.13rem;
+  font-weight: 700;
+  padding: 3px 18px 3px 18px;
+  margin-left: 12px;
+  letter-spacing: 1.5px;
+}
+
+.raceCountry {
+  font-size: 2.1rem;
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  margin: 12px 0 4px 0;
+  letter-spacing: 2px;
+}
+
+.raceTitle {
+  font-size: 1.11rem;
+  color: #f1f1f1;
+  font-weight: 500;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.circuitName {
+  font-size: 1.07rem;
+  color: #aaa;
+  margin-bottom: 16px;
+}
+
+.circuitImgWrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.circuitImg {
+  width: 96%;
+  max-width: 340px;
+  background: #222;
+  border-radius: 11px;
+  padding: 16px 6px;
+  box-shadow: 0 2px 18px #0009;
+}
+
+@media (max-width: 900px) {
+  .raceCard { min-width: 95vw; max-width: 98vw; }
+}
