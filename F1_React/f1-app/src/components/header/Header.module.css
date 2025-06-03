@@ -4,46 +4,16 @@
   --main-gray: #191919;
 }
 
+.container{
+  margin-top: -60px;
+}
+
 .headerRoot {
   background: var(--main-red);
   position: sticky;
   top: 0;
   z-index: 999;
   box-shadow: 0 2px 14px rgba(0,0,0,.34);
-}
-
-/* This is your old .wrapper for max width and centering */
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
-
-/* Ticker under nav */
-.ticker {
-  background: var(--main-gray);
-  border-top: 2.5px solid var(--main-red);
-  overflow: hidden;
-  position: relative;
-}
-.tickerTrack {
-  display: inline-block;
-  white-space: nowrap;
-  padding: 7px 0 5px 0;
-  color: #ccc;
-  font-size: 1rem;
-  animation: scroll 24s linear infinite;
-  width: 100%;
-}
-.tickerDot {
-  color: var(--main-red);
-  font-size: 1.05rem;
-  margin-right: 4px;
-}
-@keyframes scroll {
-  0% { transform: translateX(100%) }
-  100% { transform: translateX(-100%) }
 }
 
 /* HERO SECTION */
@@ -53,14 +23,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: url('/f1-cars.jpg') center/cover no-repeat; */
 }
-/* .heroOverlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.2);
-  z-index: 1;
-} */
+
 .heroContent {
   position: relative;
   z-index: 2;
@@ -101,7 +65,7 @@
 .btn:hover { background: #ff2525; transform: scale(1.04); }
 
 .divider {
-  margin-top: 37px;
+  margin-top: -25px;
   height: 88px; background: var(--main-red); clip-path: polygon(0 0,100% 90%,0 100%);
 }
 

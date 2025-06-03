@@ -17,10 +17,12 @@ export default function Infodriver() {
     <>
     <div className={styles.wrapperCar}>
     <div className={styles.drivers}>
+
+      <h1 className={styles.title}>F1 Drivers and Teams</h1>
       {teams.map((team) => (
         <div
   className={styles.driverCard} 
-  style={{
+  style={{  
     borderLeft: `6px solid ${team.color}`,
     boxShadow: `0 4px 24px #000a, 0 0 16px 2px ${team.color}`
   }}

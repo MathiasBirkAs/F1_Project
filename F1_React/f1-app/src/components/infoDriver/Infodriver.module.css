@@ -1,7 +1,8 @@
 .wrapperCar {
-  max-width: 1000px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 20px;
 }
 
 .drivers {
@@ -9,6 +10,14 @@
   display: flex;
   flex-direction: column;
   gap: 48px;
+}
+
+.title{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.3rem;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .driverCard {

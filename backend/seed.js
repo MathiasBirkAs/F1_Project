@@ -17,14 +17,14 @@ const teams = [
         num: "10",
         country: "France",
         flag: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/2022_French_Grand_Prix_%2852279065728%29_%28midcrop%29.png/1024px-2022_French_Grand_Prix_%2852279065728%29_%28midcrop%29.png"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/gasly"
       },
       {
         name: "Franco Colapinto",
         num: "TBD",
         country: "Argentina",
         flag: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Conferencia_de_prensa_Colapinto_ACA_octubre_2023_-_BugWarp_%2813%29_%28cropped%29.jpg/500px-Conferencia_de_prensa_Colapinto_ACA_octubre_2023_-_BugWarp_%2813%29_%28cropped%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/fom-website/drivers/2025Drivers/colapinto"
       }
     ]
   },
@@ -39,14 +39,14 @@ const teams = [
         num: "14",
         country: "Spain",
         flag: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Alonso-68_%2824710447098%29.jpg/500px-Alonso-68_%2824710447098%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/alonso"
       },
       {
         name: "Lance Stroll",
         num: "18",
         country: "Canada",
         flag: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/2025_Japan_GP_-_Aston_Martin_-_Lance_Stroll_-_Fanzone_Stage_%28cropped%29.jpg/500px-2025_Japan_GP_-_Aston_Martin_-_Lance_Stroll_-_Fanzone_Stage_%28cropped%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/stroll"
       }
     ]
   },
@@ -61,14 +61,14 @@ const teams = [
         num: "16",
         country: "Monaco",
         flag: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Monaco.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3978_by_Stepro_%28cropped2%29.jpg/500px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3978_by_Stepro_%28cropped2%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/leclerc"
       },
       {
         name: "Lewis Hamilton",
         num: "44",
         country: "United Kingdom",
         flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1600px-Flag_of_the_United_Kingdom_%283-5%29.svg.png?20230715230526",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Lewis_Hamilton_2022_S%C3%A3o_Paulo_Grand_Prix_%2852498120773%29_%28cropped%29.jpg/500px-Lewis_Hamilton_2022_S%C3%A3o_Paulo_Grand_Prix_%2852498120773%29_%28cropped%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/hamilton"
       }
     ]
   },
@@ -83,14 +83,14 @@ const teams = [
         num: "TBD",
         country: "United Kingdom",
         flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1600px-Flag_of_the_United_Kingdom_%283-5%29.svg.png?20230715230526",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2025_Japan_GP_-_Haas_-_Oliver_Bearman_-_Thursday_%28cropped%29.jpg/500px-2025_Japan_GP_-_Haas_-_Oliver_Bearman_-_Thursday_%28cropped%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/bearman"
       },
       {
         name: "Esteban Ocon",
         num: "31",
         country: "France",
         flag: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/FIA_F1_Austria_2022_Drivers_Parade_%281%29_%28cropped%29.jpg/500px-FIA_F1_Austria_2022_Drivers_Parade_%281%29_%28cropped%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/ocon"
       }
     ]
   },
@@ -105,14 +105,14 @@ const teams = [
         num: "81",
         country: "Australia",
         flag: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Oscar_Piastri.png/500px-Oscar_Piastri.png"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/piastri"
       },
       {
         name: "Lando Norris",
         num: "4",
         country: "United Kingdom",
         flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1600px-Flag_of_the_United_Kingdom_%283-5%29.svg.png?20230715230526",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3975_by_Stepro_%28cropped2%29.jpg/500px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3975_by_Stepro_%28cropped2%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/norris"
       }
     ]
   },
@@ -127,14 +127,14 @@ const teams = [
         num: "63",
         country: "United Kingdom",
         flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1600px-Flag_of_the_United_Kingdom_%283-5%29.svg.png?20230715230526",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/George_Russell%2C_British_GP_2022_%2852381430692%29_%28cropped%29.jpg/500px-George_Russell%2C_British_GP_2022_%2852381430692%29_%28cropped%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/russell"
       },
       {
         name: "Kimi Antonelli",
         num: "TBD",
         country: "Italy",
         flag: "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Antonelli_Barcelona_2024_%28cropped%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/antonelli"
       }
     ]
   },
@@ -149,14 +149,14 @@ const teams = [
         num: "40",
         country: "New Zealand",
         flag: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Liam_Lawson_Austria_2022.jpg/500px-Liam_Lawson_Austria_2022.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/fom-website/drivers/2025Drivers/lawson-racing-bulls"
       },
       {
         name: "Isack Hadjar",
         num: "TBD",
         country: "France",
         flag: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Isack_Hadjar_2022.JPG/500px-Isack_Hadjar_2022.JPG"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/hadjar"
       }
     ]
   },
@@ -171,14 +171,14 @@ const teams = [
         num: "1",
         country: "Netherlands",
         flag: "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_%28medium_crop%29.jpg/500px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_%28medium_crop%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/verstappen"
       },
       {
         name: "Yuki Tsunoda",
         num: "22",
         country: "Japan",
         flag: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/2021_US_GP%2C_Tsunoda.jpg/500px-2021_US_GP%2C_Tsunoda.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/tsunoda"
       }
     ]
   },
@@ -193,14 +193,14 @@ const teams = [
         num: "27",
         country: "Germany",
         flag: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Nico_Hulkenberg_2016_Malaysia.jpg/500px-Nico_Hulkenberg_2016_Malaysia.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/hulkenberg"
       },
       {
         name: "Gabriel Bortoleto",
         num: "TBD",
         country: "Brazil",
         flag: "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/G._Bortoleto_17_Sep_2024.png/500px-G._Bortoleto_17_Sep_2024.png"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/bortoleto"
       }
     ]
   },
@@ -215,14 +215,14 @@ const teams = [
         num: "23",
         country: "Thailand",
         flag: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Alex_Albon_%28cropped%29.jpg/500px-Alex_Albon_%28cropped%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/albon"
       },
       {
         name: "Carlos Sainz",
         num: "55",
         country: "Spain",
         flag: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Formula1Gabelhofen2022_%2804%29_%28cropped2%29.jpg/500px-Formula1Gabelhofen2022_%2804%29_%28cropped2%29.jpg"
+        photo: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/sainz"
       }
     ]
   }

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import styles from "./Races.module.css";
+import styles from "../styles/Races.module.css";
 
 export default function Races() {
   const [races, setRaces] = useState([]);

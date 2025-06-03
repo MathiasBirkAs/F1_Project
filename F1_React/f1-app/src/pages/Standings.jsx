@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import styles from "./Standings.module.css"; // Style this for F1 vibes
+import styles from "../styles/Standings.module.css"; // Style this for F1 vibes
 
 export default function Standings() {
   const [tab, setTab] = useState("drivers");

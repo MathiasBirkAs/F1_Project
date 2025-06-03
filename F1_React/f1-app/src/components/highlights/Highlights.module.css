@@ -1,0 +1,49 @@
+
+/* ========== WRAPPERS ========== */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ========== SECTIONS ========== */
+section { margin: 60px 0; }
+.sectiontitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  margin: 40px 0 18px 0;
+  text-align: center;
+  letter-spacing: .5px;
+  text-shadow: 0 2px 8px #0003;
+}
+
+/* ========== HIGHLIGHT CARDS ========== */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 30px;
+}
+.card {
+  background: linear-gradient(120deg, var(--card-bg) 80%, #232323 100%);
+  border: 1.2px solid var(--card-border);
+  border-radius: 14px;
+  padding: 26px 22px;
+  text-align: center;
+  transition: transform .24s, box-shadow .2s;
+  box-shadow: 0 2px 10px rgba(0,0,0,.12);
+  position: relative;
+  min-width: 240px;
+  max-width: 320px;
+  flex: 1 1 280px;
+  margin-bottom: 12px;
+}
+.card:hover {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 8px 34px rgba(225,6,0,.11), 0 2px 10px #e1060020;
+  border-color: #e10600bb;
+}
+.card img { height: 66px; width: 66px; object-fit: cover; margin: 0 auto 13px; }
+.card h3 { margin: 13px 0 6px; font-family: 'Orbitron', sans-serif; font-size: 1.16rem; }
+.card small { color: #aaa; }

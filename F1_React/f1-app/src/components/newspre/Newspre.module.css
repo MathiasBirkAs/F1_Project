@@ -1,0 +1,63 @@
+/* ========== MINI CARDS / NEWS & RACE PREVIEWS ========== */
+:root {
+  --main-red: #e10600;
+  --main-dark: #0f0f0f;
+  --main-gray: #191919;
+  --card-bg: #181818;
+  --card-border: #222;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--main-dark);
+  color: #eee;
+  line-height: 1.6;
+}
+a { text-decoration: none; color: inherit; transition: color .2s; }
+img { max-width: 100%; display: block; border-radius: 8px; }
+
+/* ========== SECTIONS ========== */
+section { margin: 60px 0; }
+.sectiontitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  margin: 40px 0 18px 0;
+  text-align: center;
+  letter-spacing: .5px;
+  text-shadow: 0 2px 8px #0003;
+}
+
+/* ========== WRAPPERS ========== */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+
+.miniCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin: 16px 0;
+}
+.minicard {
+  background: #1d1d1d;
+  border-radius: 7px;
+  padding: 11px 17px;
+  box-shadow: 0 2px 10px #0002;
+  border: 1px solid #222;
+  font-size: .97rem;
+  min-width: 200px;
+  max-width: 270px;
+  transition: box-shadow .18s, transform .18s;
+  cursor: pointer;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.minicard:hover { box-shadow: 0 2px 18px #e1060033; transform: translateY(-2px) scale(1.02); }
+.minicard .fa-solid { color: var(--main-red); font-size: 1.2rem; }

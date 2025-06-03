@@ -23,7 +23,7 @@ export default function Nav() {
     <div className={styles.ticker}>
         <div className={styles.tickerTrack}>
           <span className={styles.tickerDot}><i className="fa-solid fa-circle"></i></span>
-          Verstappen leads WDC by 45 pts —
+          F2: Lindblad dominates in Barcelona —
           <span className={styles.tickerDot}><i className="fa-solid fa-circle"></i></span>
           Ferrari bring new side‑pod package to Barcelona —
           <span className={styles.tickerDot}><i className="fa-solid fa-circle"></i></span>
