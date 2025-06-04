@@ -347,23 +347,24 @@ const races = [
     race: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Las_Vegas_Circuit"
   },
   {
-    name: "Abu Dhabi Grand Prix",
+    name: "Qatar Grand Prix",
     startDate: "2025-11-28",
     endDate: "2025-11-30",
-    circuit: "Yas Marina Circuit",
-    country: "United Arab Emirates",
-    flag: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg",
-    race: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Abu_Dhabi_Circuit"
-  },
-  {
-    name: "Qatar Grand Prix",
-    startDate: "2025-12-05",
-    endDate: "2025-12-07",
     circuit: "Losail International Circuit",
     country: "Qatar",
     flag: "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg",
     race: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Qatar_Circuit"
+  },
+  {
+    name: "Abu Dhabi Grand Prix",
+    startDate: "2025-12-05",
+    endDate: "2025-12-07",
+    circuit: "Yas Marina Circuit",
+    country: "United Arab Emirates",
+    flag: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg",
+    race: "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Abu_Dhabi_Circuit"
   }
+  
 ];
 
 const driverStandings = [

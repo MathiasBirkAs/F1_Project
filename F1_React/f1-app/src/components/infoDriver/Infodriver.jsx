@@ -8,7 +8,7 @@ export default function Infodriver() {
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/teams") // change if using different port
+    axios.get("http://localhost:5000/api/teams") 
       .then(res => setTeams(res.data))
       .catch(err => console.error("API error:", err));
   }, []);
