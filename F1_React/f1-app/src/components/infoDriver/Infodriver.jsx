@@ -35,7 +35,7 @@ export default function Infodriver() {
           className={styles.driverPhoto}
           src={driver.photo}
           alt={driver.name}
-        />
+        /> <img src={driver.car}/>
         <div className={styles.driverName}>{driver.name}</div>
         <div className={styles.driverNumFlag}>
           <span className={styles.driverNum}>{driver.num}</span>

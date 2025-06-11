@@ -1,6 +1,5 @@
 import RaceResult from '../models/raceResult.model.js';
 
-// Get all race results
 export const getAllRaceResults = async (req, res) => {
   try {
     const results = await RaceResult.find().sort({ date: 1 });
@@ -10,7 +9,6 @@ export const getAllRaceResults = async (req, res) => {
   }
 };
 
-// Get single race result by ID (optional)
 export const getRaceResultById = async (req, res) => {
   try {
     const result = await RaceResult.findById(req.params.id);
@@ -21,7 +19,6 @@ export const getRaceResultById = async (req, res) => {
   }
 };
 
-// Create
 export const createRaceResult = async (req, res) => {
   try {
     const result = await RaceResult.create(req.body);
@@ -31,7 +28,6 @@ export const createRaceResult = async (req, res) => {
   }
 };
 
-// Update
 export const updateRaceResult = async (req, res) => {
   try {
     const updated = await RaceResult.findByIdAndUpdate(req.params.id, req.body, { new: true });
@@ -42,7 +38,6 @@ export const updateRaceResult = async (req, res) => {
   }
 };
 
-// Delete
 export const deleteRaceResult = async (req, res) => {
   try {
     const deleted = await RaceResult.findByIdAndDelete(req.params.id);

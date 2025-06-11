@@ -9,10 +9,10 @@ import {
 
 const router = express.Router();
 
-router.get('/', getAllTeams);             // GET /api/teams
-router.get('/:id', getTeamById);          // GET /api/teams/:id
-router.post('/', createTeam);             // POST /api/teams
-router.put('/:id', updateTeam);           // PUT /api/teams/:id
-router.delete('/:id', deleteTeam);        // DELETE /api/teams/:id
+router.get('/', getAllTeams);             
+router.get('/:id', getTeamById);          
+router.post('/', createTeam);             
+router.put('/:id', updateTeam);           
+router.delete('/:id', deleteTeam);      
 
 export default router;

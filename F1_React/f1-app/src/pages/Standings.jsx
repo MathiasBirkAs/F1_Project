@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import styles from "../styles/Standings.module.css"; // Style this for F1 vibes
+import styles from "../styles/Standings.module.css";
 
 export default function Standings() {
   const [tab, setTab] = useState("drivers");
@@ -23,7 +23,6 @@ export default function Standings() {
         <button className={tab === "results" ? styles.active : ""} onClick={() => setTab("results")}>Race Winners</button>
       </div>
 
-      {/* === DRIVERS === */}
       {tab === "drivers" && (
         <table className={styles.table}>
           <thead>
@@ -49,7 +48,6 @@ export default function Standings() {
         </table>
       )}
 
-      {/* === TEAMS === */}
       {tab === "teams" && (
         <table className={styles.table}>
           <thead>
@@ -71,7 +69,6 @@ export default function Standings() {
         </table>
       )}
 
-      {/* === RACE RESULTS === */}
       {tab === "results" && (
         <table className={styles.table}>
           <thead>

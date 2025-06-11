@@ -16,7 +16,6 @@
   box-shadow: 0 2px 14px rgba(0,0,0,.34);
 }
 
-/* HERO SECTION */
 .heroSection {
   position: relative;
   min-height: 410px;
@@ -69,7 +68,7 @@
   height: 88px; background: var(--main-red); clip-path: polygon(0 0,100% 90%,0 100%);
 }
 
-/* Responsive: shrink padding/gaps/font for small screens */
+
 @media (max-width: 900px) {
   .wrapper { padding: 0 10px; }
   .navList { gap: 14px; }

@@ -23,15 +23,15 @@ export default function Nav() {
     <div className={styles.ticker}>
         <div className={styles.tickerTrack}>
           <span className={styles.tickerDot}><i className="fa-solid fa-circle"></i></span>
-          F2: Lindblad dominates in Barcelona —
+          Formula 1 reveals calendar for 2026 season — 
           <span className={styles.tickerDot}><i className="fa-solid fa-circle"></i></span>
-          Ferrari bring new side‑pod package to Barcelona —
+          All the highlights F1 calendar —
           <span className={styles.tickerDot}><i className="fa-solid fa-circle"></i></span>
-          Alonso re‑signs through 2026 —
+          RACE WEEK: 5 storylines —
           <span className={styles.tickerDot}><i className="fa-solid fa-circle"></i></span>
-          Mercedes confirms engine upgrade —
-          <span className={styles.tickerDot}><i className="fa-solid fa-circle"></i></span>
-          Pirelli announces new tire compound for rain —
+          Formula 2 and Formula 3 2026 calendarse —
+          {/* <span className={styles.tickerDot}><i className="fa-solid fa-circle"></i></span>
+          DRIVER MARKET: Who's on Cadillac’s next driver — */}
         </div>
     </div>
     </>

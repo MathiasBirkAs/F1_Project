@@ -1,6 +1,5 @@
 import TeamStanding from '../models/teamStanding.model.js';
 
-// Get all team standings
 export const getAllTeamStandings = async (req, res) => {
   try {
     const standings = await TeamStanding.find().sort({ position: 1 });
@@ -10,7 +9,6 @@ export const getAllTeamStandings = async (req, res) => {
   }
 };
 
-// Get single team standing by ID (optional)
 export const getTeamStandingById = async (req, res) => {
   try {
     const standing = await TeamStanding.findById(req.params.id);
@@ -21,7 +19,6 @@ export const getTeamStandingById = async (req, res) => {
   }
 };
 
-// Create
 export const createTeamStanding = async (req, res) => {
   try {
     const standing = await TeamStanding.create(req.body);
@@ -31,7 +28,6 @@ export const createTeamStanding = async (req, res) => {
   }
 };
 
-// Update
 export const updateTeamStanding = async (req, res) => {
   try {
     const updated = await TeamStanding.findByIdAndUpdate(req.params.id, req.body, { new: true });
@@ -42,7 +38,6 @@ export const updateTeamStanding = async (req, res) => {
   }
 };
 
-// Delete
 export const deleteTeamStanding = async (req, res) => {
   try {
     const deleted = await TeamStanding.findByIdAndDelete(req.params.id);

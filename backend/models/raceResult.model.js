@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const raceResultSchema = new mongoose.Schema({
   grandPrix: String,
-  date: String, // "YYYY-MM-DD"
+  date: String, 
   winner: String,
   car: String,
   laps: Number,

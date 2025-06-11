@@ -7,7 +7,7 @@ const raceSchema = new mongoose.Schema({
   circuit: String,
   country: String,
   flag: String,
-  race: String // circuit map image
+  race: String 
 });
 
 export default mongoose.model('Race', raceSchema, 'races');

@@ -1,6 +1,5 @@
 import Team from '../models/team.model.js';
 
-// Get all teams
 export const getAllTeams = async (req, res) => {
   try {
     const teams = await Team.find();
@@ -10,7 +9,6 @@ export const getAllTeams = async (req, res) => {
   }
 };
 
-// Get a single team by ID
 export const getTeamById = async (req, res) => {
   try {
     const team = await Team.findById(req.params.id);
@@ -21,7 +19,6 @@ export const getTeamById = async (req, res) => {
   }
 };
 
-// Create a new team
 export const createTeam = async (req, res) => {
   try {
     const newTeam = await Team.create(req.body);
@@ -31,7 +28,6 @@ export const createTeam = async (req, res) => {
   }
 };
 
-// Update a team by ID
 export const updateTeam = async (req, res) => {
   try {
     const updatedTeam = await Team.findByIdAndUpdate(req.params.id, req.body, { new: true });
@@ -42,7 +38,6 @@ export const updateTeam = async (req, res) => {
   }
 };
 
-// Delete a team by ID
 export const deleteTeam = async (req, res) => {
   try {
     const deleted = await Team.findByIdAndDelete(req.params.id);

@@ -11,7 +11,6 @@ export default function Races() {
       .catch(err => console.error("Failed to fetch races", err));
   }, []);
 
-  // Helper to format date range, month, etc.
   function getDateParts(race) {
   if (!race.startDate || !race.endDate) return { month: "??", range: "??" };
 

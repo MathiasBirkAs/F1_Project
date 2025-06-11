@@ -1,6 +1,6 @@
 import DriverStanding from '../models/driverstanding.model.js';
 
-// Get all driver standings
+
 export const getAllDriverStandings = async (req, res) => {
   try {
     const standings = await DriverStanding.find().sort({ position: 1 });
@@ -10,7 +10,7 @@ export const getAllDriverStandings = async (req, res) => {
   }
 };
 
-// Get single driver standing by ID (optional)
+
 export const getDriverStandingById = async (req, res) => {
   try {
     const standing = await DriverStanding.findById(req.params.id);
@@ -21,7 +21,7 @@ export const getDriverStandingById = async (req, res) => {
   }
 };
 
-// Create (POST) - for use in Postman or seed only
+
 export const createDriverStanding = async (req, res) => {
   try {
     const standing = await DriverStanding.create(req.body);
@@ -31,7 +31,7 @@ export const createDriverStanding = async (req, res) => {
   }
 };
 
-// Update (PUT)
+
 export const updateDriverStanding = async (req, res) => {
   try {
     const updated = await DriverStanding.findByIdAndUpdate(req.params.id, req.body, { new: true });
@@ -42,7 +42,7 @@ export const updateDriverStanding = async (req, res) => {
   }
 };
 
-// Delete (DELETE)
+
 export const deleteDriverStanding = async (req, res) => {
   try {
     const deleted = await DriverStanding.findByIdAndDelete(req.params.id);

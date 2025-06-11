@@ -12,14 +12,12 @@
   box-shadow: 0 2px 14px rgba(0,0,0,.34);
 }
 
-/* This is your old .wrapper for max width and centering */
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
 }
 
-/* Nav flex row, space-between! */
 .navFlex {
   display: flex;
   justify-content: space-between;
@@ -35,7 +33,6 @@
   color: #fff;
 }
 
-/* Nav list right-aligned */
 .navList {
   display: flex;
   gap: 32px;

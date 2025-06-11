@@ -5,7 +5,8 @@ const driverSchema = new mongoose.Schema({
   num: String,
   country: String,
   flag: String,
-  photo: String
+  photo: String,
+  car: String
 });
 
 const teamSchema = new mongoose.Schema({
