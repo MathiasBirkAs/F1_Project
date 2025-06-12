@@ -1,13 +1,13 @@
 # 🏁 F1_Project
 
-A modern fullstack Formula 1 web application: React frontend + Node.js/Express backend + MongoDB database.
+A Fullstack Formula 1 website: React frontend + Node.js/Express backend + MongoDB database.
 Features drivers, teams, races, live standings, and race results — all in authentic F1 style.
 
 ## 🚦 Project Structure
 
 F1_Project/
-├── backend/       # Node/Express API & MongoDB models
-├── F1_React/      # React frontend app
+├── backend/       
+├── F1_React/f1-app 
 ├── .gitignore
 ├── README.md
 
@@ -31,13 +31,9 @@ Seed the database:
 
 node seed.js
 
-Start the API server:
-
-npm run dev
-
 ### 2. Frontend
 
-cd F1_React
+cd F1_React, cd f1-app
 npm install
 npm run dev
 
@@ -54,8 +50,8 @@ Visit: http://localhost:5173
 ## ⚡ Quick Notes
 
 - Backend and frontend are decoupled; both must be running
-- All data in backend/seed.js (rerun to wipe and reload demo content)
-- MongoDB must be running locally (or update MONGODB_URI)
+- All data in backend/seed.js (node seed.js to get updated information)
+- MongoDB must be running locally 
 - News is static demo content, no API integration
 
 ## 👨‍💻 Author
