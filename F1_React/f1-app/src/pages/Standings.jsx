@@ -16,7 +16,7 @@ export default function Standings() {
 
   return (
     <div className={styles.wrapper}>
-      <h1 className={styles.title}>2025 Standings & Results</h1>
+      <h1 className={styles.title}>2025 Standings & Results <br/><p className={styles.ptag}>For best view use Desktop</p></h1>
       <div className={styles.tabs}>
         <button className={tab === "drivers" ? styles.active : ""} onClick={() => setTab("drivers")}>Drivers</button>
         <button className={tab === "teams" ? styles.active : ""} onClick={() => setTab("teams")}>Teams</button>

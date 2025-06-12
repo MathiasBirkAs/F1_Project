@@ -65,7 +65,9 @@
 
 .divider {
   margin-top: -25px;
-  height: 88px; background: var(--main-red); clip-path: polygon(0 0,100% 90%,0 100%);
+  height: 88px; 
+  background: var(--main-red); 
+  clip-path: polygon(0 0,109% 100%,0 100%);
 }
 
 

@@ -37,11 +37,15 @@ export default function Infodriver() {
           alt={driver.name}
         /> <img src={driver.car}/>
         <div className={styles.driverName}>{driver.name}</div>
+        
         <div className={styles.driverNumFlag}>
           <span className={styles.driverNum}>{driver.num}</span>
           <img src={driver.flag} className={styles.flag} alt={driver.country} />
         </div>
         <ul className={styles.driverStats}>
+          <li>
+            <b>Age:</b> {driver.age}
+          </li>
           <li>
             <b>Team:</b> {team.team}
           </li>

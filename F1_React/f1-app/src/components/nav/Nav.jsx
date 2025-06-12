@@ -1,24 +1,33 @@
+import { useState } from "react";
 import styles from './Nav.module.css';
 
 export default function Nav() {
+   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
     <header className={styles.headerRoot}>
-          <div className={styles.wrapper + " " + styles.navFlex}>
-            <div className={styles.brand}>
-              F1<span style={{opacity:.8}}>Info</span>
-            </div>
-            <nav>
-              <ul className={styles.navList}>
-                <li><a className={styles.navLink} href="/">Home</a></li>
-                <li><a className={styles.navLink} href="/drivers">Drivers/Teams</a></li>
-                <li><a className={styles.navLink} href="/races">Races</a></li>
-                <li><a className={styles.navLink} href="/standings">Standings</a></li>
-                <li><a className={styles.navLink} href="/news">News</a></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
+      <div className={`${styles.wrapper} ${styles.navFlex}`}>
+        <div className={styles.brand}>
+          F1<span style={{ opacity: 0.8 }}>Info</span>
+        </div>
+
+        <div className={styles.burger} onClick={() => setIsOpen(!isOpen)}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav className={`${styles.navMenu} ${isOpen ? styles.open : ""}`}>
+          <ul className={styles.navList}>
+            <li><a className={styles.navLink} href="/">Home</a></li>
+            <li><a className={styles.navLink} href="/drivers">Drivers/Teams</a></li>
+            <li><a className={styles.navLink} href="/races">Races</a></li>
+            <li><a className={styles.navLink} href="/standings">Standings</a></li>
+            <li><a className={styles.navLink} href="/news">News</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <div className={styles.ticker}>
         <div className={styles.tickerTrack}>

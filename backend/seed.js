@@ -13,6 +13,7 @@ const teams = [
     drivers: [
       {
         name: "Pierre Gasly",
+        age: 28,
         num: "10",
         country: "France",
         flag: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
@@ -21,6 +22,7 @@ const teams = [
       },
       {
         name: "Franco Colapinto",
+        age: 20,
         num: "43",
         country: "Argentina",
         flag: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
@@ -37,6 +39,7 @@ const teams = [
     drivers: [
       {
         name: "Fernando Alonso",
+        age: 42,
         num: "14",
         country: "Spain",
         flag: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg",
@@ -45,6 +48,7 @@ const teams = [
       },
       {
         name: "Lance Stroll",
+        age: 24,
         num: "18",
         country: "Canada",
         flag: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
@@ -61,6 +65,7 @@ const teams = [
     drivers: [
       {
         name: "Charles Leclerc",
+        age: 27,
         num: "16",
         country: "Monaco",
         flag: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Monaco.svg",
@@ -69,6 +74,7 @@ const teams = [
       },
       {
         name: "Lewis Hamilton",
+        age: 39,
         num: "44",
         country: "United Kingdom",
         flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1600px-Flag_of_the_United_Kingdom_%283-5%29.svg.png?20230715230526",
@@ -85,6 +91,7 @@ const teams = [
     drivers: [
       {
         name: "Oliver Bearman",
+        age: 19,
         num: "87",
         country: "United Kingdom",
         flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1600px-Flag_of_the_United_Kingdom_%283-5%29.svg.png?20230715230526",
@@ -93,6 +100,7 @@ const teams = [
       },
       {
         name: "Esteban Ocon",
+        age: 28,
         num: "31",
         country: "France",
         flag: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
@@ -109,6 +117,7 @@ const teams = [
     drivers: [
       {
         name: "Oscar Piastri",
+        age: 22,
         num: "81",
         country: "Australia",
         flag: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg",
@@ -117,6 +126,7 @@ const teams = [
       },
       {
         name: "Lando Norris",
+        age: 24,
         num: "4",
         country: "United Kingdom",
         flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1600px-Flag_of_the_United_Kingdom_%283-5%29.svg.png?20230715230526",
@@ -133,6 +143,7 @@ const teams = [
     drivers: [
       {
         name: "George Russell",
+        age: 25,
         num: "63",
         country: "United Kingdom",
         flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1600px-Flag_of_the_United_Kingdom_%283-5%29.svg.png?20230715230526",
@@ -141,6 +152,7 @@ const teams = [
       },
       {
         name: "Kimi Antonelli",
+        age: 18,
         num: "12",
         country: "Italy",
         flag: "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
@@ -157,6 +169,7 @@ const teams = [
     drivers: [
       {
         name: "Liam Lawson",
+        age: 21,
         num: "40",
         country: "New Zealand",
         flag: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
@@ -165,6 +178,7 @@ const teams = [
       },
       {
         name: "Isack Hadjar",
+        age: 20,
         num: "6",
         country: "France",
         flag: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
@@ -181,6 +195,7 @@ const teams = [
     drivers: [
       {
         name: "Max Verstappen",
+        age: 26,
         num: "1",
         country: "Netherlands",
         flag: "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
@@ -189,6 +204,7 @@ const teams = [
       },
       {
         name: "Yuki Tsunoda",
+        age: 24,
         num: "22",
         country: "Japan",
         flag: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg",
@@ -205,6 +221,7 @@ const teams = [
     drivers: [
       {
         name: "Nico Hulkenberg",
+        age: 36,
         num: "27",
         country: "Germany",
         flag: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
@@ -213,6 +230,7 @@ const teams = [
       },
       {
         name: "Gabriel Bortoleto",
+        age: 20,
         num: "5",
         country: "Brazil",
         flag: "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg",
@@ -229,6 +247,7 @@ const teams = [
     drivers: [
       {
         name: "Alex Albon",
+        age: 27,
         num: "23",
         country: "Thailand",
         flag: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
@@ -237,6 +256,7 @@ const teams = [
       },
       {
         name: "Carlos Sainz",
+        age: 30,
         num: "55",
         country: "Spain",
         flag: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg",

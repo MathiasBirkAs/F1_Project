@@ -20,12 +20,16 @@
   text-align: center;
 }
 
+.age{
+  margin-left: 15px;
+}
+
 .driverCard {
   position: relative;
   background: #191919;
   border-radius: 22px;
   box-shadow: 0 4px 24px #000a;
-  padding: 28px 10px;
+  padding: 20px 10px;
   margin-bottom: 40px;
 }
 

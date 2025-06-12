@@ -23,6 +23,7 @@ export default function Header() {
       </section>
     <div className={styles.divider}></div>
     </div>
+    
    </div> 
     </>
   );
