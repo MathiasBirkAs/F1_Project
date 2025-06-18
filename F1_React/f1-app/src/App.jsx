@@ -9,6 +9,7 @@ import News from "./pages/News";
 import Footer from "./components/footer/Footer";
 import KonamiMonaco from "./components/konamiMonaco/KonamiMonaco";
 import SummonMax from "./components/summonmax/SummonMax";
+import MouseConfetti from "./components/mouse/MouseConfetti";
 
 
 
@@ -25,6 +26,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <MouseConfetti />
       <SummonMax />
       <KonamiMonaco />
       <Nav />
