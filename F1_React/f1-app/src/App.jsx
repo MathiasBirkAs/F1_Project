@@ -7,6 +7,9 @@ import Races from "./pages/Races";
 import Standings from "./pages/Standings";
 import News from "./pages/News";
 import Footer from "./components/footer/Footer";
+import KonamiMonaco from "./components/konamiMonaco/KonamiMonaco";
+import SummonMax from "./components/summonmax/SummonMax";
+
 
 
 
@@ -22,6 +25,8 @@ export default function App() {
 
   return (
     <div className="App">
+      <SummonMax />
+      <KonamiMonaco />
       <Nav />
       {routes}
       <Footer />
