@@ -33,19 +33,8 @@ export default function KonamiMonaco() {
     origin: { y: 0.6 }
   }), i * 150);
 }
-
-    // Yacht background
-    document.body.style.backgroundSize = "cover";
-    document.body.style.backgroundAttachment = "fixed";
-
     // Page title
     document.title = "Party Mode Activated!";
-
-    // Monaco engine loop (optional)
-    const audio = new Audio("https://www.soundjay.com/mechanical/formula-1-race-car-1.mp3");
-    audio.loop = true;
-    audio.volume = 0.3;
-    audio.play();
 
     // CSS Animations
     const style = document.createElement("style");
