@@ -53,7 +53,7 @@ export default function SummonMax() {
       confetti({ particleCount: 250, spread: 120 });
       car.remove();
       text.remove();
-      maxSummoned.current = false; // 🔓 Unlock again
+      maxSummoned.current = false; 
     }, 6000);
 
     const style = document.createElement("style");

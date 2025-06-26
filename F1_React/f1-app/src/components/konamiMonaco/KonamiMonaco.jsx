@@ -35,7 +35,7 @@ export default function KonamiMonaco() {
 }
     // Page title
     document.title = "Party Mode Activated!";
-
+ 
     // CSS Animations
     const style = document.createElement("style");
     style.innerHTML = `

@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <MouseConfetti />
+      {/* <MouseConfetti /> */}
       <SummonMax />
       <KonamiMonaco />
       <Nav />
